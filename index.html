@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <title>Vehicle Configaration</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Vehicle Configaration</a>
+        </div>
+    <!--/.nav-collapse -->
+      </div>
+    </nav>
+     <div class="container marginT20">
+	 <div class="bannerBackgroundColor panel panel-default">
+        <div class="panel-body">
+  <ul class="nav nav-pills">
+    <li class="active"><a data-toggle="pill" href="#LTDriveMain">LT Drive Main</a></li>
+    <li><a data-toggle="pill" href="#Engine">Engine</a></li>
+    <li><a data-toggle="pill" href="#Transmission">Transmission</a></li>
+    <li><a data-toggle="pill" href="#TCase">T Case</a></li>
+    <li><a data-toggle="pill" href="#Axles">Axles</a></li>
+    <li><a data-toggle="pill" href="#Suspensions">Suspensions</a></li>
+    <li><a data-toggle="pill" href="#CenterBearing">Center Bearing</a></li>
+    <li><a data-toggle="pill" href="#TransmissionYoke">Transmission</a></li>
+    <li><a data-toggle="pill" href="#CBYoke">CB yoke</a></li>
+    <li><a data-toggle="pill" href="#Simulate">Simulate</a></li>
+  </ul>
+  
+  <div class="tab-content">
+     <h3>Sharidss</h3>
+     <div class="marginT30"></div>
+    <div id="LTDriveMain" class="tab-pane fade in active">
+      <div class="row">
+      <div class="col-sm-9">
+        <div class="form-group">
+          <label for="usr">Browse Catalog:</label>
+          <input type="text" class="form-control" id="usr">
+          <input id="fileUpload" name="FileUpload" multiple="" type="file" /> 
+        </div>
+      </div>
+      <!--<div class="col-sm-3">
+        <input id="fileUpload" name="FileUpload" multiple="" type="file" /> 
+      </div>-->
+      </div>
+      <div class="row">
+          <div class="col-sm-8">
+          <label for="sel1">Select Vehile Program:</label>
+          <select class="form-control" id="sel1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+          </select>
+        </div>
+     </div>
+    <div class="marginT30"></div>
+  <div class="row">
+      <div class="col-sm-3">
+       <label for="sel1">Wheelbase:</label>
+      <select class="form-control" id="sel1">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+      </select>
+    </div>
+      <div class="col-sm-3">
+       <label for="sel1"># of Shats:</label>
+      <select class="form-control" id="sel1">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+      </select>
+    </div>
+    <div class="col-sm-3">
+       <label for="sel1">Drive Type:</label>
+      <select class="form-control" id="sel1">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+      </select>
+    </div>
+  </div><!-- row close-->
+</div>
+<!--Engine tab body start -->
+    <div id="Engine" class="tab-pane fade">
+      <div class="row">
+       <div class="col-sm-6">
+        <label for="sel1">Engine:</label>
+        <select class="form-control" id="sel1">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <code>A<br />B<br />C<br />D</code>
+       <div class="col-sm-4">
+        <div class="form-group">
+          <label for="usr">X</label>
+          <input type="text" class="form-control" id="usr">
+        </div>
+      </div>
+       <div class="col-sm-4">
+        <div class="form-group">
+          <label for="usr">Y</label>
+          <input type="text" class="form-control" id="usr">
+        </div>
+      </div>
+       <div class="col-sm-4">
+        <div class="form-group">
+          <label for="usr">Z</label>
+          <input type="text" class="form-control" id="usr">
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="form-group">
+          <label for="usr">Torgue</label>
+          <input type="text" class="form-control" id="usr">
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="form-group">
+          <label for="usr">RPM:</label>
+          <input type="text" class="form-control" id="usr">
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="form-group">
+          <label for="usr">Engine Angle:</label>
+          <input type="text" class="form-control" id="usr">
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+    <div id="Transmission" class="tab-pane fade">
+      <h3>Menu 2</h3>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+    </div>
+    <div id="TCase" class="tab-pane fade">
+      <h3>Menu 3</h3>
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    </div>
+     <div id="Axles" class="tab-pane fade">
+      <h3>Menu 3</h3>
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    </div>
+     <div id="Suspensions" class="tab-pane fade">
+      <h3>Menu 3</h3>
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    </div>
+     <div id="CenterBearing" class="tab-pane fade">
+      <h3>Menu 3</h3>
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    </div>
+     <div id="TransmissionYoke" class="tab-pane fade">
+      <h3>Menu 3</h3>
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    </div>
+     <div id="CBYoke" class="tab-pane fade">
+      <h3>Menu 3</h3>
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    </div>
+     <div id="Simulate" class="tab-pane fade">
+      <h3>Menu 3</h3>
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    </div>
+    <div class="marginT30"></div>
+    <div class="form-group text-center">
+        <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Edit Targets</button>
+        <button class="btn btn-success" >Next</button>
+    </div>
+  </div>
+</div>
+   <!--<div class="panel panel-default">
+	 <div class="panel-heading">Tire Size(Inches)</div>
+    <div class="panel-body">
+	<form>
+  <div class="form-group col-sm-4">
+   <label for="mJoint">Tire Size(Inches)</label>
+      <select class="form-control" id="sel1">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+      </select>
+  </div>
+</form>
+	</div>
+   </div>-->
+ <!--<div class="panel panel-default">
+	 <div class="panel-heading">Revs/ Mile</div>
+    <div class="panel-body">
+  <div class="form-group col-sm-4">
+    <label for="mJoint">Vmax</label>
+    <input type="mJoint" class="form-control">
+  </div>
+   <div class="form-group col-sm-4">
+    <label for="mJoint">MPH</label>
+    <input type="mJoint" class="form-control">
+  </div>
+	</div>
+   </div>-->			
+    </div><!-- /.container -->
+      <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+        <div class="modal-body">
+          <p>This is a large modal.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

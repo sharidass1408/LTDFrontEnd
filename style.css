@@ -1,0 +1,30 @@
+body {
+  padding-top: 50px;
+  background: #ccc;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.marginT20{
+	margin-top:20px;
+}
+.marginT30{
+	margin-top:30px;
+}
+
+.bannerBackgroundColor{
+	background-color: #000;
+	color:#c7c7c7;
+	background-color: rgba(0,0,0,.75);
+	box-shadow: 0 0 0.8823em 0 rgba(0,0,0,.5);
+	padding: 17px;
+}
+
+.panel-primary {
+    border-color: #337ab7;
+}
+body {
+
+	font-size: 16px !important;
+}
