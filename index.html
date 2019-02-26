@@ -33,7 +33,7 @@
     <li><a data-toggle="pill" href="#Axles">Axles</a></li>
     <li><a data-toggle="pill" href="#Suspensions">Suspensions</a></li>
     <li><a data-toggle="pill" href="#CenterBearing">Center Bearing</a></li>
-    <li><a data-toggle="pill" href="#TransmissionYoke">Transmission</a></li>
+    <li><a data-toggle="pill" href="#TransmissionYoke">Transmission Yoke</a></li>
     <li><a data-toggle="pill" href="#CBYoke">CB yoke</a></li>
     <li><a data-toggle="pill" href="#Simulate">Simulate</a></li>
   </ul>
@@ -272,20 +272,7 @@
         </div>
       </div>
     </div>
-	 <div class="row">
-      <div class="col-sm-4">
-        <div class="form-group">
-          <label for="usr">Gear Ratios</label>
-          <input type="text" class="form-control" id="usr">
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="form-group">
-          <label for="usr"></label>
-          <input type="text" class="form-control" id="usr">
-        </div>
-      </div>
-    </div>
+
 	<div class="radio">
       <label><input type="radio" name="optradio" checked>Single</label>
     </div>
@@ -305,8 +292,36 @@
       <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
     </div>
      <div id="TransmissionYoke" class="tab-pane fade">
-      <h3>Menu 3</h3>
-      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+         <div class="row">
+      <div class="col-sm-3">
+        <div class="form-group">
+          <label for="usr">Min</label>
+          <input type="text" class="form-control" id="usr">
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="form-group">
+          <label for="usr">Max:</label>
+          <input type="text" class="form-control" id="usr">
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="form-group">
+          <label for="usr">Phase Ang:</label>
+          <input type="text" class="form-control" id="usr">
+        </div>
+      </div>
+	   <div class="col-sm-3">
+        <div class="form-group">
+          <label for="usr">True Ang:</label>
+          <input type="text" class="form-control" id="usr">
+        </div>
+      </div>
+	  <div class="form-group">
+  <label for="comment"></label>
+  <textarea class="form-control" rows="5" id="comment"></textarea>
+</div>
+    </div>
     </div>
      <div id="CBYoke" class="tab-pane fade">
       <h3>Menu 3</h3>
@@ -321,36 +336,7 @@
         <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Edit Targets</button>
     </div>
   </div>
-</div>
-   <!--<div class="panel panel-default">
-	 <div class="panel-heading">Tire Size(Inches)</div>
-    <div class="panel-body">
-	<form>
-  <div class="form-group col-sm-4">
-   <label for="mJoint">Tire Size(Inches)</label>
-      <select class="form-control" id="sel1">
-        <option>1</option>
-        <option>2</option>
-        <option>3</option>
-        <option>4</option>
-      </select>
-  </div>
-</form>
-	</div>
-   </div>-->
- <!--<div class="panel panel-default">
-	 <div class="panel-heading">Revs/ Mile</div>
-    <div class="panel-body">
-  <div class="form-group col-sm-4">
-    <label for="mJoint">Vmax</label>
-    <input type="mJoint" class="form-control">
-  </div>
-   <div class="form-group col-sm-4">
-    <label for="mJoint">MPH</label>
-    <input type="mJoint" class="form-control">
-  </div>
-	</div>
-   </div>-->			
+</div>			
     </div><!-- /.container -->
       <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
